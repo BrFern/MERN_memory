@@ -7,6 +7,8 @@ import thunk from 'redux-thunk';
 import {createRoot} from 'react-dom/client';
 
 import reducers from './reducers';
+import './index.css';
+
 
 const container = document.getElementById('root');
 const root = createRoot(container);
