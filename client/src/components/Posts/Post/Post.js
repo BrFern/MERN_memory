@@ -7,11 +7,11 @@ import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
 import moment from 'moment';
 // import {useDispatch} from 'react-redux';
 
-const Post = ({post}) => {
+const Post = ({ post }) => {
     const classes = useStyles();
     return (
        <Card className={classes.card}>
-            <CardMedia className={classes.media} image ={postMessage.selectedFile} title = {post.title}/>
+            <CardMedia className={classes.media} image ={post.selectedFile} title = {post.title}/>
             <div className={classes.overlay}> 
                 <Typography variant="h6"> {post.creator}</Typography>
                 <Typography variant="body2"> {moment(post.createdAt).fromNow()}</Typography>
