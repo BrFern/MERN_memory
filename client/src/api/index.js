@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //Backend url data
 
-const url="https://backend-memory-app.onrender.com";
+const url="https://backend-memory-app.onrender.com/posts";
 
 // const url = 'http://localhost:5000/posts';
 
